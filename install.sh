@@ -13,6 +13,7 @@ sudo apt-get update
 sudo apt-get install git vim curl unzip php ruby python default-jdk apache2 gdebi alien gparted konsole zsh steam vlc handbrake atom network-manager-openvpn-gnome gimp
 
 echo "Some configuration stuff"
+apm install atom-beautify file-icons language-vue
 chsh -s /bin/zsh
 sudo service network-manager restart
 
@@ -38,7 +39,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 
 sudo apt-get update && sudo apt-get install yarn
 
-yarn global add webpack vue-cli
+yarn global add webpack vue-cli gulp
 
 
 #-----------------------------------------------------------------------------------

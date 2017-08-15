@@ -10,7 +10,7 @@ echo "Updating"
 sudo apt-get update
 
 
-sudo apt-get install git vim curl unzip php ruby python default-jdk apache2 gdebi alien gparted konsole zsh steam vlc handbrake atom network-manager-openvpn-gnome gimp
+sudo apt-get install git vim curl unzip php ruby python default-jdk apache2 gdebi alien gparted konsole zsh steam vlc handbrake atom network-manager-openvpn-gnome gimp ffmpeg macchanger
 
 echo "Some configuration stuff"
 apm install atom-beautify file-icons language-vue

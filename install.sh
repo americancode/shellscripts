@@ -12,6 +12,10 @@ sudo apt-get update
 
 sudo apt-get install git vim curl unzip php ruby python default-jdk apache2 gdebi alien gparted konsole zsh steam vlc handbrake atom network-manager-openvpn-gnome gimp ffmpeg macchanger
 
+echo "Installing some Gems"
+
+sudo gem install rake rubocop
+
 echo "Some configuration stuff"
 apm install atom-beautify file-icons language-vue
 chsh -s /bin/zsh
